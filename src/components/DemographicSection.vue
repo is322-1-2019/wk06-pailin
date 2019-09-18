@@ -63,6 +63,7 @@
       </div>
     </div>
   </form>
+  <p> {{ demoInfo }} </p>
 </div>
 </template>
 

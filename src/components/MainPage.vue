@@ -9,7 +9,7 @@
       </div>
       <demographic-section class="card-body"></demographic-section>
       <question-section class="card-body"></question-section>
-      <button class="btn-secondary">submit</button>
+      <button class="btn-secondary" v-on:click="submitted++">submit {{submitted}} times</button>
     </div>
   </div>
 </template>
@@ -21,6 +21,11 @@ export default {
   components: {
     DemographicSection,
     QuestionSection
+  },
+  data: function(){
+      return {
+          submitted: 0,
+      }
   }
 };
 </script>
