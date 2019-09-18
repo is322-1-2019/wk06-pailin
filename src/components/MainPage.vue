@@ -9,18 +9,20 @@
       </div>
       <demographic-section class="card-body"></demographic-section>
       <question-section class="card-body"></question-section>
-      <button class="btn-secondary" v-on:click="submitted++">submit {{submitted}} times</button>
+      <Footer class="card-footer"></Footer>
     </div>
   </div>
 </template>
 <script>
 import DemographicSection from "./DemographicSection.vue";
 import QuestionSection from "./QuestionSection.vue";
+import Footer from "./Footer.vue";
 
 export default {
   components: {
     DemographicSection,
-    QuestionSection
+    QuestionSection,
+    Footer
   },
   data: function(){
       return {
