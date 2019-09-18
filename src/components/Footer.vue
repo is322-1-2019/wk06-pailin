@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex align-items-center">
-        <p>{{info.editorName}}</p>
+        <p>{{info.editorName}}</p><br>
         <!-- <p>{{info.date}}</p> -->
     </div>
 </template>
